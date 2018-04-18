@@ -1,0 +1,14 @@
+{
+  "scripts": [
+    {
+      "repoPath": "run.sh",
+      "targetPath": "run.sh",
+      "pathType": "FILE"
+ },
+    {
+      "repoPath": "Guided_filter_despeckling_VLab.py",
+      "targetPath": "Guided_filter_despeckling_VLab.py",
+      "pathType": "FILE"
+ }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "inputs": [
+    {
+      "id": "DataObject_0h3a3ff",
+      "inputType": "individual",
+      "valueType": "value",
+      "description": "URL to download the 'zip' file that contains the Guided and Guidance GeoTIFF files, the 'despeckling_settings.txt' file and optionally the CloudMask GeoTIFF file",
+      "name": "Input Zip File",
+      "obligation": true,
+      "hasDefault": false,
+      "valueSchema": "url",
+      "target": "data/despeckling_input.zip"
+    }
+  ],
+  "outputs": [
+    {
+      "id": "DataObject_0n95v5p",
+      "outputType": "individual",
+      "valueType": "value",
+      "description": "Despeckled Sar Image - Report",
+      "name": "Despeckled Sar Image - Report",
+      "valueSchema": "url",
+      "target": "data/despeckling_output.zip"
+    }
+  ]
+}

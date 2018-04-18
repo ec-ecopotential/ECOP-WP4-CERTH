@@ -1,0 +1,16 @@
+{
+  "image": "ecopotentialcerth/despeckling",
+  "resources": {
+    "memory_mb": "20000",
+    "cpu_units": ""
+  },
+  "container": {
+    "entryPoint": [
+      "/bin/bash",
+      "-c"
+    ],
+    "command": [
+      "./run.sh"
+    ]
+  }
+}
